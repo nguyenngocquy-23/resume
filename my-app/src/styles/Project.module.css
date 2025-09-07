@@ -1,10 +1,10 @@
 .projectsSection {
   margin-top: 8rem;
-  max-width: 850px;
+  max-width: 750px;
 }
 
 .heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #e6f1ff;
   margin-bottom: 2rem;
 }
@@ -39,7 +39,7 @@
 .resumeLink{
   color: #e6f1ff;
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .projectTitle {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #e6f1ff;
   margin: 0;
 }
@@ -79,7 +79,7 @@
 }
 
 .projectTime {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: #8892b0;
   width: 20%;
 }
@@ -88,6 +88,7 @@
   margin: 0.5rem 0;
   color: #8892b0;
   line-height: 1.6;
+  font-size: 0.9rem;
 }
 
 .skills {
@@ -103,7 +104,7 @@
 .skills li {
   background: rgba(100, 255, 218, 0.1);
   color: #5BE1D2;
-  font-size: 0.9rem;
+  font-size: 0.73rem;
   padding: 0.25rem 0.6rem;
   border-radius: 20px;
   font-weight: 600;
