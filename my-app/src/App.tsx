@@ -8,7 +8,6 @@ import { Element } from "react-scroll";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import styles from "./styles/Footer.module.css";
-import { FaX } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 
 const products = [
