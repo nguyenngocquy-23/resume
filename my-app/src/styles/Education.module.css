@@ -1,0 +1,58 @@
+.educationsSection {
+  margin-top: 8rem;
+  max-width: 850px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: #e6f1ff;
+  margin-bottom: 2rem;
+}
+
+.educationContainer:hover .educationItem {
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.educationContainer:hover .educationItem:hover {
+  opacity: 1;
+}
+
+.educationItem {
+  position: relative;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.educationItem:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  background-color: rgba(164, 155, 245, 0.1);
+  cursor: pointer;
+}
+
+.educationTime {
+  font-size: 0.875rem;
+  color: #8892b0;
+  width: 20%;
+}
+
+.school {
+  font-size: 1.1rem;
+  color: #e6f1ff;
+  margin: 0;
+}
+
+.degree {
+  font-size: 1rem;
+  color: #64ffda;
+  margin: 0.25rem 0;
+}
+
+.description {
+  margin: 0.5rem 0;
+  color: #8892b0;
+  line-height: 1.6;
+}
