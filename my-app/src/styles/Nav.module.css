@@ -58,3 +58,30 @@
 .navbar .line.active {
   width: 80px;
 }
+
+/* -------- Tablet -------- */
+@media (max-width: 768px) {
+
+  .navbar .line {
+    width: 0px;
+    height: 2px;
+  }
+
+  .navbar li:hover .line,
+  .navbar .line.active {
+    width: 10px;
+  }
+}
+
+/* -------- Mobile nhỏ -------- */
+@media (max-width: 480px) {
+
+  .navbar .line {
+    width: 0;
+  }
+
+  .navbar li:hover .line,
+  .navbar .line.active {
+    width: 10px;
+  }
+}

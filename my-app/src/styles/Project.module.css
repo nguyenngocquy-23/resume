@@ -36,7 +36,7 @@
   cursor: pointer;
 }
 
-.resumeLink{
+.resumeLink {
   color: #e6f1ff;
   margin-top: 1rem;
   font-size: 1rem;
@@ -49,7 +49,7 @@
 }
 
 .resumeLink:hover .icon,
-.projectItem:hover a .icon{
+.projectItem:hover a .icon {
   transform: translate(3px, -3px);
   transition: transform 0.3s ease;
 }
@@ -108,4 +108,12 @@
   padding: 0.25rem 0.6rem;
   border-radius: 20px;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .projectTime {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
 }
